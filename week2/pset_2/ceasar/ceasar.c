@@ -11,7 +11,7 @@ int main(int argc, string argv[])
 
     if (argc == 2 && isdigit(*argv[1]))
     {
-        string plain_text = get_string("plaintextt: ");
+        string plain_text = get_string("plaintext: ");
         int key = atoi(argv[1]);
         printf("%s: ", "ciphertext");
         cipher_text(plain_text, key);   
