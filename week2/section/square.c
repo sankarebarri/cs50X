@@ -6,7 +6,7 @@ int square(int n);
 int main(void)
 {
     int num = get_int("Number: ");
-    printf("%i \n", square(num));
+    printf("%i\n", square(num));
 }
 
 int square(int n)

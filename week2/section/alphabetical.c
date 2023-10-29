@@ -6,7 +6,7 @@ string check(string word);
 
 int main(void)
 {
-    string name = "abcdef";
+    string name = get_string("Type in your word: ");
     
     printf("%s\n", check(name));
 }
